@@ -1,0 +1,37 @@
+.button-store {
+  background-color: #252c41;
+  color: #fff;
+  width: 200px;
+  height: 60px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
+  box-sizing: border-box;
+  margin-right: 60px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.-comprar:hover {
+  color: rgb(49, 131, 199);
+  background-color: rgb(238, 238, 238);
+  transition: 500ms;
+  transition-timing-function: linear;
+}
+
+.-second {
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: 218px;
+  line-height: 56px;
+}
+
+.-second:hover {
+  color: #252c41;
+  border-color: #252c41;
+  transition: 500ms;
+  transition-timing-function: linear;
+}

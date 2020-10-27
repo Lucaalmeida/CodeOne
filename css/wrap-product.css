@@ -1,0 +1,13 @@
+.wrap-product {
+  display: inline-block;
+  width: 550px;
+  vertical-align: middle;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.wrap-product > .buttons {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(calc(100% + 98px));
+}
